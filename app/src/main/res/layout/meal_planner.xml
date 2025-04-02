@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Logo -->
+
+
+    <!--App Name -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="267dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/foodie"/>
+
+    <!-- Slogan -->
+    <TextView
+        android:id="@+id/sloganTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@string/app_name'
+    android:textSize="25sp"
+        android:textColor="#990000"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <!-- User Input -->
+    <EditText
+        android:id="@+id/inputTIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:text="@string/enter_time_of_the_day"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <!-- Button to see menu of the specific time -->
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/menue"
+        android:textColor="#990000"
+        android:textSize="20sp" />
+
+
+    <!--Reset Button -->
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/reset"
+        android:textColor="#990000"
+        android:textSize="20sp" />
+
+    <!-- Meal Options Display -->
+    <TextView
+        android:id="@+id/mealOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

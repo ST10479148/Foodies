@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="reset">Reset</string>
+    <string name="menue">(Menue)</string>
+    <string name="enter_time_of_the_day">Enter time of the day</string>
+    <string name="todo">TODO</string>
+    <string name="result">Result</string>
+</resources>
